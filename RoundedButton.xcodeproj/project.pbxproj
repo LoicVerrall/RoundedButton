@@ -12,6 +12,7 @@
 		336768771EC8E8F0002E4A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336768751EC8E8F0002E4A17 /* Main.storyboard */; };
 		336768791EC8E8F0002E4A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336768781EC8E8F0002E4A17 /* Assets.xcassets */; };
 		3367687C1EC8E8F0002E4A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3367687A1EC8E8F0002E4A17 /* LaunchScreen.storyboard */; };
+		336768841EC8E8FC002E4A17 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336768831EC8E8FC002E4A17 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		336768781EC8E8F0002E4A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3367687B1EC8E8F0002E4A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3367687D1EC8E8F0002E4A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336768831EC8E8FC002E4A17 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				336768711EC8E8F0002E4A17 /* AppDelegate.swift */,
 				336768731EC8E8F0002E4A17 /* ViewController.swift */,
+				336768831EC8E8FC002E4A17 /* RoundedButton.swift */,
 				336768751EC8E8F0002E4A17 /* Main.storyboard */,
 				336768781EC8E8F0002E4A17 /* Assets.xcassets */,
 				3367687A1EC8E8F0002E4A17 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				336768741EC8E8F0002E4A17 /* ViewController.swift in Sources */,
+				336768841EC8E8FC002E4A17 /* RoundedButton.swift in Sources */,
 				336768721EC8E8F0002E4A17 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 44MRSN35CD;
 				INFOPLIST_FILE = RoundedButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loicverrall.RoundedButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 44MRSN35CD;
 				INFOPLIST_FILE = RoundedButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loicverrall.RoundedButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";

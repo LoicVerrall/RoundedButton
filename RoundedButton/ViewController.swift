@@ -8,18 +8,28 @@
 
 import UIKit
 
+/// This class simply demonstrates how to use the RoundedButton class (see RoundedButton.swift).
 class ViewController: UIViewController {
-
+	
+	// Outlet to the default (blue) button.
+	@IBOutlet weak var defaultButton: RoundedButton!
+	
+	// Outlet to the destructive (red) button.
+	@IBOutlet weak var destructiveButton: RoundedButton!
+	
+	// Make the status bar light (against the dark background).
+	override var preferredStatusBarStyle: UIStatusBarStyle { get { return .lightContent } }
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		defaultButton.isDisabled = true
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
+	
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		destructiveButton.isDisabled = true
 	}
-
 
 }
 
